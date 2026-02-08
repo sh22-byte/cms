@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://cms-1-rlkx.onrender.com/';
 const TOKEN_KEY = 'cms_token';
 
 const buildQuery = (params = {}) => {
